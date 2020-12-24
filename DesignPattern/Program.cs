@@ -11,9 +11,14 @@ namespace anodern.DesignPattern {
             //Console.WriteLine();
             //Bridge.TEST.Test();
 
-            Facade.Client.Test();
-            Console.WriteLine();
-            Decade.Client.Test();
+            //实验6
+            //Composite.Client.Test();
+            //Console.WriteLine();
+            //Decade.Client.Test();
+
+            //实验7
+            //Facade.Client.Test();
+            Proxy.Client.Test();
         }
     }
 }

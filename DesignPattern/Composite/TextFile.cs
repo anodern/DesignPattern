@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace anodern.DesignPattern.Facade {
+namespace anodern.DesignPattern.Composite {
     class TextFile:AbstractFile {
         public TextFile(string fileName) {
             this.fileName = fileName;
