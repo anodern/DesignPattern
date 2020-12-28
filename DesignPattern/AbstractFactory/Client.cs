@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace anodern.DesignPattern.AbstractFactory {
-    class TEST {
+﻿namespace anodern.DesignPattern.AbstractFactory {
+    class Client {
         public static void Test() {
             ISkinFactory factory;
             IButton button;

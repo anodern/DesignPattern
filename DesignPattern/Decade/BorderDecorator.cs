@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
 namespace anodern.DesignPattern.Decade {
     class BorderDecorator:ComponentDecorator {
         public BorderDecorator(VisualComponent component) : base(component) {
@@ -11,7 +8,6 @@ namespace anodern.DesignPattern.Decade {
             setBorder();
             base.display();
         }
-
         public void setBorder() {
             Console.WriteLine("给组件添加黑色边框");
         }

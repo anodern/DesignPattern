@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace anodern.DesignPattern.Decade {
+﻿namespace anodern.DesignPattern.Decade {
     class ComponentDecorator:VisualComponent {
         private VisualComponent component;
         public ComponentDecorator(VisualComponent component) {

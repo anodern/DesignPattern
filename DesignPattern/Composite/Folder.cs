@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections;
-
 namespace anodern.DesignPattern.Composite {
     class Folder:AbstractFile {
         private ArrayList fileList = new ArrayList();

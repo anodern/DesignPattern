@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace anodern.DesignPattern.Composite {
+﻿namespace anodern.DesignPattern.Composite {
     class Client {
         public static void Test() {
             AbstractFile file1, file2, file3, file4, folder1, folder2, folder3;
@@ -11,7 +7,7 @@ namespace anodern.DesignPattern.Composite {
             file3 = new TextFile("文本1.txt");
             file4 = new TextFile("文本2.docx");
 
-            folder1 = new Folder("涩图");
+            folder1 = new Folder("图");
             folder1.add(file1);
             folder1.add(file2);
 

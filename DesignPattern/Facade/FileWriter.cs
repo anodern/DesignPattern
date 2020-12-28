@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Text;
-
 namespace anodern.DesignPattern.Facade {
     class FileWriter {
         public void write(string encryptText,string fileNameDes) {

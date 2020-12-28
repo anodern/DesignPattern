@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace anodern.DesignPattern.Facade {
+﻿namespace anodern.DesignPattern.Facade {
     class EncryptFacade {
         FileReader reader;
         FileWriter writer;
